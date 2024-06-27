@@ -21,6 +21,7 @@
 tsconfig.tsbuildinfo
 *.css.d.ts
 *.css.d.ts.map
+$*.ts
 .env
 
 # debug

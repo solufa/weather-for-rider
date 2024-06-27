@@ -1,13 +1,13 @@
-export type Location = { longitude: number; latitude: number }
+export type Location = { longitude: number; latitude: number };
 
 export type Route = {
-  distance: number
-  duration: number
+  distance: number;
+  duration: number;
   legs: {
     steps: {
-      distance: number
-      duration: number
-      maneuver: { location: [number, number] }
-    }[]
-  }[]
-}
+      distance: number;
+      duration: number;
+      maneuver: { location: [number, number] };
+    }[];
+  }[];
+};
