@@ -1,0 +1,39 @@
+.panel {
+  position: relative;
+  padding: 8px 12px;
+  background: #fff;
+  border: 2px solid #333;
+  border-radius: 8px;
+  transform: translateY(-60px);
+}
+
+.panel::before {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  content: '';
+  border: 12px solid transparent;
+  border-top-color: #333;
+  transform: translateX(-50%);
+}
+
+.panel::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  content: '';
+  border: 8px solid transparent;
+  border-top-color: #fff;
+  transform: translateX(-50%);
+}
+
+.time {
+  font-size: 12px;
+  color: #333;
+}
+
+.text {
+  margin-top: 4px;
+  font-size: 16px;
+  color: #333;
+}

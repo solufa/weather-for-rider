@@ -1,5 +1,5 @@
 {
-  "name": "next-ts-starter",
+  "name": "weather-for-rider",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,11 +17,17 @@
     "typecheck": "npm run hcm && tsc --noEmit"
   },
   "dependencies": {
+    "@mapbox/mapbox-gl-directions": "^4.3.1",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.2",
+    "axios": "^1.7.2",
+    "mapbox-gl": "^3.4.0",
     "next": "14.2.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-map-gl": "^7.1.7"
   },
   "devDependencies": {
+    "@types/mapbox__mapbox-gl-geocoder": "^5.0.0",
     "@types/node": "^20.11.30",
     "@types/react": "^18.2.67",
     "@typescript-eslint/eslint-plugin": "^6.3.0",
