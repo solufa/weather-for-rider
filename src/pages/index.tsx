@@ -17,7 +17,9 @@ const Home = () => {
           <div className={styles.title}>
             <div style={{ fontSize: '120px', fontWeight: 'bold' }}>Weather</div>
             <div className={styles.titleTail}>for Rider</div>
-            <button onClick={() => setStarted(true)}>START</button>
+            <button className={styles.startBtn} onClick={() => setStarted(true)}>
+              START
+            </button>
           </div>
         </div>
       )}
